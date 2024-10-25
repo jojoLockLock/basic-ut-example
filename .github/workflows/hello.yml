@@ -16,5 +16,7 @@ jobs:
     permissions: write-all
     timeout-minutes: 5
     steps:
-      - name: Checkout
+      - name: echo 1
         run: echo ${{ github.ref }}
+      - name: echo 2
+        run: echo ${{ githu.actor }}
