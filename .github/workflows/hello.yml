@@ -19,4 +19,4 @@ jobs:
       - name: echo 1
         run: echo ${{ github.ref }}
       - name: echo 2
-        run: echo ${{ githu.actor }}
+        run: echo ${{ github.actor }}
