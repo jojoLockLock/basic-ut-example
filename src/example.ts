@@ -56,3 +56,6 @@ const isDeleted = userManager.deleteUser(user2.id);
 console.log('用户 Bob 被删除:', isDeleted);
 
 console.log('删除后的所有用户:', userManager.getAllUsers());
+
+
+export { UserManager };
